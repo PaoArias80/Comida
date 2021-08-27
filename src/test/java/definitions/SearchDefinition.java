@@ -13,7 +13,7 @@ public class SearchDefinition {
 
     @Given("^Estoy en la pagina de inicio de rappi$")
     public void estoy_en_la_pagina_de_inicio_de_rappi() {
-         HomeSteps.goToHomePage();
+        HomeSteps.goToHomePage();
 
     }
 
@@ -21,16 +21,11 @@ public class SearchDefinition {
     @When("^Realizo la busqueda de restaurante en rappi // accion$")
     public void realizo_la_busqueda_de_restaurante_en_rappi_accion() {
         // Write code here that turns the phrase above into concrete actions
+
     }
 
     @Then("^Deberian aparecer los resultados de la busqueda$")
     public void deberian_aparecer_los_resultados_de_la_busqueda() {
-        // Write code here that turns the phrase above into concrete actions
-    }
-
-
-    @When("^Realizo la busqueda de Drogueria en rappi$")
-    public void realizo_la_busqueda_de_Drogueria_en_rappi() {
         // Write code here that turns the phrase above into concrete actions
 
     }
