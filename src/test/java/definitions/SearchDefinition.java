@@ -20,7 +20,7 @@ public class SearchDefinition {
 
     @When("^Realizo la busqueda de restaurante en rappi // accion$")
     public void realizo_la_busqueda_de_restaurante_en_rappi_accion() {
-        // Write code here that turns the phrase above into concrete actions
+        HomeSteps.goToTxtBuscar();
 
     }
 

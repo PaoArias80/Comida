@@ -12,4 +12,10 @@ public class HomeSteps {
         mHomePage.open();
 
     }
+
+    @Step
+    public void goToTxtBuscar(){
+        mHomePage.setInputNameBuscar("Restaurante");
+
+    }
 }
