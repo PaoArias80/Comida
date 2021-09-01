@@ -1,21 +1,31 @@
 package pages;
 
-import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import utils.UtilsElement;
 
 @DefaultUrl("https://www.rappi.com.co/")
 public class HomePage extends UtilsElement {
-     public String txtRappiNameBuscar = "//*[@name='search']";
 
-     public void setInputNameBuscar (String input) {
+    public HomePage (){
 
-         WebElementFacade element1 = element(By.name(txtRappiNameBuscar));
+    }
+
+     public String textboxRappiBuscar = "//*[@name='search']";
+
+
+    public WebElementFacade getInpunTextBoxRappiBuscar (){
+
+        return findBy(textboxRappiBuscar);
+    }
+
+    /* public void setInputNameBuscar (String input) {
+
+         WebElementFacade element1 = element(By.name(textboxRappiBuscar));
           element1.type(input);
 
 
 
-     }
+     } */
 
 }

@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Buscador en rappi" skipped="0" tests="1" time="10.44" timestamp="2021-08-30 09:34:59"><testcase name="Busqueda de restaurante en rappi"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-98QB0GM', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-98QB0GM', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-98QB0GM', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: driver.version: unknown&#13;
-pages.HomePage.setInputBuscar(HomePage.java:15)&#13;
-steps.HomeSteps.goToTxtBuscar(HomeSteps.java:18)&#13;
-definitions.SearchDefinition.realizo_la_busqueda_de_restaurante_en_rappi_accion(SearchDefinition.java:23)&#13;
-✽.Realizo la busqueda de restaurante en rappi // accion(src/test/resources/features/search.feature:7)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Buscador en rappi" skipped="0" tests="1" time="10.81" timestamp="2021-09-01 05:53:31"><testcase name="Busqueda de restaurante en rappi"/></testsuite>
