@@ -13,18 +13,14 @@ public class HomeSteps {
 
     }
 
-   /* @Step
+   @Step
     public void goToTxtBuscar(){
         mHomePage.setInputNameBuscar("Restaurante");
 
     }
 
-    */
-
-    @Step
-    public void SetTextinTextBoxBuscar(String text){
-        mHomePage.getInpunTextBoxRappiBuscar().typeAndEnter(text);
-    }
+    /* @Step
+    public void SetTextinTextBoxBuscar(String text){ mHomePage.getInpunTextBoxRappiBuscar().typeAndEnter(text);}*/
 
 
 }
